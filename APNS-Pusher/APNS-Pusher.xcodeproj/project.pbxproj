@@ -1,0 +1,680 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		378CF556845C48CDF2851C81 /* libPods-APNS-Pusher.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E03F6908EC1EBA121A7879A4 /* libPods-APNS-Pusher.a */; };
+		CE82CB2C1FD049EA00ED6227 /* SCLTimerDisplay.m in Sources */ = {isa = PBXBuildFile; fileRef = CE82CB1C1FD049EA00ED6227 /* SCLTimerDisplay.m */; };
+		CE82CB2D1FD049EA00ED6227 /* SCLAlertViewStyleKit.m in Sources */ = {isa = PBXBuildFile; fileRef = CE82CB1E1FD049EA00ED6227 /* SCLAlertViewStyleKit.m */; };
+		CE82CB2E1FD049EA00ED6227 /* SCLAlertViewResponder.m in Sources */ = {isa = PBXBuildFile; fileRef = CE82CB221FD049EA00ED6227 /* SCLAlertViewResponder.m */; };
+		CE82CB2F1FD049EA00ED6227 /* SCLTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = CE82CB231FD049EA00ED6227 /* SCLTextView.m */; };
+		CE82CB301FD049EA00ED6227 /* SCLSwitchView.m in Sources */ = {isa = PBXBuildFile; fileRef = CE82CB241FD049EA00ED6227 /* SCLSwitchView.m */; };
+		CE82CB311FD049EA00ED6227 /* SCLButton.m in Sources */ = {isa = PBXBuildFile; fileRef = CE82CB261FD049EA00ED6227 /* SCLButton.m */; };
+		CE82CB321FD049EA00ED6227 /* UIImage+ImageEffects.m in Sources */ = {isa = PBXBuildFile; fileRef = CE82CB281FD049EA00ED6227 /* UIImage+ImageEffects.m */; };
+		CE82CB331FD049EA00ED6227 /* SCLAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = CE82CB2B1FD049EA00ED6227 /* SCLAlertView.m */; };
+		CE8570F31FD0383E004F1FF5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CE8570F21FD0383E004F1FF5 /* main.m */; };
+		CE8570F61FD0383E004F1FF5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CE8570F51FD0383E004F1FF5 /* AppDelegate.m */; };
+		CE8570F91FD0383E004F1FF5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE8570F81FD0383E004F1FF5 /* ViewController.m */; };
+		CE8570FC1FD0383E004F1FF5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE8570FA1FD0383E004F1FF5 /* Main.storyboard */; };
+		CE8570FE1FD0383E004F1FF5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE8570FD1FD0383E004F1FF5 /* Assets.xcassets */; };
+		CE8571011FD0383F004F1FF5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE8570FF1FD0383F004F1FF5 /* LaunchScreen.storyboard */; };
+		CE85710C1FD0383F004F1FF5 /* APNS_PusherTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CE85710B1FD0383F004F1FF5 /* APNS_PusherTests.m */; };
+		CE8571171FD0383F004F1FF5 /* APNS_PusherUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CE8571161FD0383F004F1FF5 /* APNS_PusherUITests.m */; };
+		CE8571251FD0385B004F1FF5 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE8571241FD0385B004F1FF5 /* ViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CE8571081FD0383F004F1FF5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE8570E61FD0383E004F1FF5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CE8570ED1FD0383E004F1FF5;
+			remoteInfo = "APNS-Pusher";
+		};
+		CE8571131FD0383F004F1FF5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE8570E61FD0383E004F1FF5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CE8570ED1FD0383E004F1FF5;
+			remoteInfo = "APNS-Pusher";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0A5CA32405B7254706083296 /* Pods-APNS-Pusher.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-APNS-Pusher.debug.xcconfig"; path = "Pods/Target Support Files/Pods-APNS-Pusher/Pods-APNS-Pusher.debug.xcconfig"; sourceTree = "<group>"; };
+		CE82CB1B1FD049EA00ED6227 /* SCLSwitchView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCLSwitchView.h; sourceTree = "<group>"; };
+		CE82CB1C1FD049EA00ED6227 /* SCLTimerDisplay.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCLTimerDisplay.m; sourceTree = "<group>"; };
+		CE82CB1D1FD049EA00ED6227 /* SCLButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCLButton.h; sourceTree = "<group>"; };
+		CE82CB1E1FD049EA00ED6227 /* SCLAlertViewStyleKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCLAlertViewStyleKit.m; sourceTree = "<group>"; };
+		CE82CB1F1FD049EA00ED6227 /* SCLMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCLMacros.h; sourceTree = "<group>"; };
+		CE82CB201FD049EA00ED6227 /* UIImage+ImageEffects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ImageEffects.h"; sourceTree = "<group>"; };
+		CE82CB211FD049EA00ED6227 /* SCLAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCLAlertView.h; sourceTree = "<group>"; };
+		CE82CB221FD049EA00ED6227 /* SCLAlertViewResponder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCLAlertViewResponder.m; sourceTree = "<group>"; };
+		CE82CB231FD049EA00ED6227 /* SCLTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCLTextView.m; sourceTree = "<group>"; };
+		CE82CB241FD049EA00ED6227 /* SCLSwitchView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCLSwitchView.m; sourceTree = "<group>"; };
+		CE82CB251FD049EA00ED6227 /* SCLAlertViewStyleKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCLAlertViewStyleKit.h; sourceTree = "<group>"; };
+		CE82CB261FD049EA00ED6227 /* SCLButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCLButton.m; sourceTree = "<group>"; };
+		CE82CB271FD049EA00ED6227 /* SCLTimerDisplay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCLTimerDisplay.h; sourceTree = "<group>"; };
+		CE82CB281FD049EA00ED6227 /* UIImage+ImageEffects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ImageEffects.m"; sourceTree = "<group>"; };
+		CE82CB291FD049EA00ED6227 /* SCLTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCLTextView.h; sourceTree = "<group>"; };
+		CE82CB2A1FD049EA00ED6227 /* SCLAlertViewResponder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCLAlertViewResponder.h; sourceTree = "<group>"; };
+		CE82CB2B1FD049EA00ED6227 /* SCLAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCLAlertView.m; sourceTree = "<group>"; };
+		CE8570EE1FD0383E004F1FF5 /* APNS-Pusher.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "APNS-Pusher.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE8570F21FD0383E004F1FF5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CE8570F41FD0383E004F1FF5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CE8570F51FD0383E004F1FF5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CE8570F71FD0383E004F1FF5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CE8570F81FD0383E004F1FF5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CE8570FB1FD0383E004F1FF5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CE8570FD1FD0383E004F1FF5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CE8571001FD0383F004F1FF5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CE8571021FD0383F004F1FF5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE8571071FD0383F004F1FF5 /* APNS-PusherTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "APNS-PusherTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE85710B1FD0383F004F1FF5 /* APNS_PusherTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = APNS_PusherTests.m; sourceTree = "<group>"; };
+		CE85710D1FD0383F004F1FF5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE8571121FD0383F004F1FF5 /* APNS-PusherUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "APNS-PusherUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE8571161FD0383F004F1FF5 /* APNS_PusherUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = APNS_PusherUITests.m; sourceTree = "<group>"; };
+		CE8571181FD0383F004F1FF5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE8571241FD0385B004F1FF5 /* ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
+		D0E98B68E914A09C063D6323 /* Pods-APNS-Pusher.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-APNS-Pusher.release.xcconfig"; path = "Pods/Target Support Files/Pods-APNS-Pusher/Pods-APNS-Pusher.release.xcconfig"; sourceTree = "<group>"; };
+		E03F6908EC1EBA121A7879A4 /* libPods-APNS-Pusher.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-APNS-Pusher.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CE8570EB1FD0383E004F1FF5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				378CF556845C48CDF2851C81 /* libPods-APNS-Pusher.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE8571041FD0383F004F1FF5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE85710F1FD0383F004F1FF5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B2ED297F36B323BD594A718C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E03F6908EC1EBA121A7879A4 /* libPods-APNS-Pusher.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CE1E778A71AD34F94797963C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0A5CA32405B7254706083296 /* Pods-APNS-Pusher.debug.xcconfig */,
+				D0E98B68E914A09C063D6323 /* Pods-APNS-Pusher.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CE82CB1A1FD049EA00ED6227 /* SCLAlertView */ = {
+			isa = PBXGroup;
+			children = (
+				CE82CB1B1FD049EA00ED6227 /* SCLSwitchView.h */,
+				CE82CB1C1FD049EA00ED6227 /* SCLTimerDisplay.m */,
+				CE82CB1D1FD049EA00ED6227 /* SCLButton.h */,
+				CE82CB1E1FD049EA00ED6227 /* SCLAlertViewStyleKit.m */,
+				CE82CB1F1FD049EA00ED6227 /* SCLMacros.h */,
+				CE82CB201FD049EA00ED6227 /* UIImage+ImageEffects.h */,
+				CE82CB211FD049EA00ED6227 /* SCLAlertView.h */,
+				CE82CB221FD049EA00ED6227 /* SCLAlertViewResponder.m */,
+				CE82CB231FD049EA00ED6227 /* SCLTextView.m */,
+				CE82CB241FD049EA00ED6227 /* SCLSwitchView.m */,
+				CE82CB251FD049EA00ED6227 /* SCLAlertViewStyleKit.h */,
+				CE82CB261FD049EA00ED6227 /* SCLButton.m */,
+				CE82CB271FD049EA00ED6227 /* SCLTimerDisplay.h */,
+				CE82CB281FD049EA00ED6227 /* UIImage+ImageEffects.m */,
+				CE82CB291FD049EA00ED6227 /* SCLTextView.h */,
+				CE82CB2A1FD049EA00ED6227 /* SCLAlertViewResponder.h */,
+				CE82CB2B1FD049EA00ED6227 /* SCLAlertView.m */,
+			);
+			path = SCLAlertView;
+			sourceTree = "<group>";
+		};
+		CE8570E51FD0383E004F1FF5 = {
+			isa = PBXGroup;
+			children = (
+				CE8570F01FD0383E004F1FF5 /* APNS-Pusher */,
+				CE85710A1FD0383F004F1FF5 /* APNS-PusherTests */,
+				CE8571151FD0383F004F1FF5 /* APNS-PusherUITests */,
+				CE8570EF1FD0383E004F1FF5 /* Products */,
+				CE1E778A71AD34F94797963C /* Pods */,
+				B2ED297F36B323BD594A718C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CE8570EF1FD0383E004F1FF5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CE8570EE1FD0383E004F1FF5 /* APNS-Pusher.app */,
+				CE8571071FD0383F004F1FF5 /* APNS-PusherTests.xctest */,
+				CE8571121FD0383F004F1FF5 /* APNS-PusherUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CE8570F01FD0383E004F1FF5 /* APNS-Pusher */ = {
+			isa = PBXGroup;
+			children = (
+				CE8570F41FD0383E004F1FF5 /* AppDelegate.h */,
+				CE8570F51FD0383E004F1FF5 /* AppDelegate.m */,
+				CE8570F71FD0383E004F1FF5 /* ViewController.h */,
+				CE8570F81FD0383E004F1FF5 /* ViewController.m */,
+				CE8571241FD0385B004F1FF5 /* ViewController.xib */,
+				CE8570FA1FD0383E004F1FF5 /* Main.storyboard */,
+				CE8570FD1FD0383E004F1FF5 /* Assets.xcassets */,
+				CE8570FF1FD0383F004F1FF5 /* LaunchScreen.storyboard */,
+				CE8571021FD0383F004F1FF5 /* Info.plist */,
+				CE8570F11FD0383E004F1FF5 /* Supporting Files */,
+			);
+			path = "APNS-Pusher";
+			sourceTree = "<group>";
+		};
+		CE8570F11FD0383E004F1FF5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CE82CB1A1FD049EA00ED6227 /* SCLAlertView */,
+				CE8570F21FD0383E004F1FF5 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CE85710A1FD0383F004F1FF5 /* APNS-PusherTests */ = {
+			isa = PBXGroup;
+			children = (
+				CE85710B1FD0383F004F1FF5 /* APNS_PusherTests.m */,
+				CE85710D1FD0383F004F1FF5 /* Info.plist */,
+			);
+			path = "APNS-PusherTests";
+			sourceTree = "<group>";
+		};
+		CE8571151FD0383F004F1FF5 /* APNS-PusherUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CE8571161FD0383F004F1FF5 /* APNS_PusherUITests.m */,
+				CE8571181FD0383F004F1FF5 /* Info.plist */,
+			);
+			path = "APNS-PusherUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CE8570ED1FD0383E004F1FF5 /* APNS-Pusher */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE85711B1FD0383F004F1FF5 /* Build configuration list for PBXNativeTarget "APNS-Pusher" */;
+			buildPhases = (
+				F45E34DD3B2463B63414E6A4 /* [CP] Check Pods Manifest.lock */,
+				CE8570EA1FD0383E004F1FF5 /* Sources */,
+				CE8570EB1FD0383E004F1FF5 /* Frameworks */,
+				CE8570EC1FD0383E004F1FF5 /* Resources */,
+				57A6B118A70DF5706813DFDE /* [CP] Embed Pods Frameworks */,
+				3F8A8FD54068A8E49ACA2D20 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "APNS-Pusher";
+			productName = "APNS-Pusher";
+			productReference = CE8570EE1FD0383E004F1FF5 /* APNS-Pusher.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CE8571061FD0383F004F1FF5 /* APNS-PusherTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE85711E1FD0383F004F1FF5 /* Build configuration list for PBXNativeTarget "APNS-PusherTests" */;
+			buildPhases = (
+				CE8571031FD0383F004F1FF5 /* Sources */,
+				CE8571041FD0383F004F1FF5 /* Frameworks */,
+				CE8571051FD0383F004F1FF5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CE8571091FD0383F004F1FF5 /* PBXTargetDependency */,
+			);
+			name = "APNS-PusherTests";
+			productName = "APNS-PusherTests";
+			productReference = CE8571071FD0383F004F1FF5 /* APNS-PusherTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CE8571111FD0383F004F1FF5 /* APNS-PusherUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE8571211FD0383F004F1FF5 /* Build configuration list for PBXNativeTarget "APNS-PusherUITests" */;
+			buildPhases = (
+				CE85710E1FD0383F004F1FF5 /* Sources */,
+				CE85710F1FD0383F004F1FF5 /* Frameworks */,
+				CE8571101FD0383F004F1FF5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CE8571141FD0383F004F1FF5 /* PBXTargetDependency */,
+			);
+			name = "APNS-PusherUITests";
+			productName = "APNS-PusherUITests";
+			productReference = CE8571121FD0383F004F1FF5 /* APNS-PusherUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CE8570E61FD0383E004F1FF5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = Wilson;
+				TargetAttributes = {
+					CE8570ED1FD0383E004F1FF5 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 9CMD5ZNVSE;
+						ProvisioningStyle = Automatic;
+					};
+					CE8571061FD0383F004F1FF5 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CE8570ED1FD0383E004F1FF5;
+					};
+					CE8571111FD0383F004F1FF5 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CE8570ED1FD0383E004F1FF5;
+					};
+				};
+			};
+			buildConfigurationList = CE8570E91FD0383E004F1FF5 /* Build configuration list for PBXProject "APNS-Pusher" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CE8570E51FD0383E004F1FF5;
+			productRefGroup = CE8570EF1FD0383E004F1FF5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CE8570ED1FD0383E004F1FF5 /* APNS-Pusher */,
+				CE8571061FD0383F004F1FF5 /* APNS-PusherTests */,
+				CE8571111FD0383F004F1FF5 /* APNS-PusherUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CE8570EC1FD0383E004F1FF5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE8571011FD0383F004F1FF5 /* LaunchScreen.storyboard in Resources */,
+				CE8570FE1FD0383E004F1FF5 /* Assets.xcassets in Resources */,
+				CE8571251FD0385B004F1FF5 /* ViewController.xib in Resources */,
+				CE8570FC1FD0383E004F1FF5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE8571051FD0383F004F1FF5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE8571101FD0383F004F1FF5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3F8A8FD54068A8E49ACA2D20 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-APNS-Pusher/Pods-APNS-Pusher-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		57A6B118A70DF5706813DFDE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-APNS-Pusher/Pods-APNS-Pusher-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F45E34DD3B2463B63414E6A4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-APNS-Pusher-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CE8570EA1FD0383E004F1FF5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE82CB331FD049EA00ED6227 /* SCLAlertView.m in Sources */,
+				CE82CB2D1FD049EA00ED6227 /* SCLAlertViewStyleKit.m in Sources */,
+				CE82CB311FD049EA00ED6227 /* SCLButton.m in Sources */,
+				CE82CB301FD049EA00ED6227 /* SCLSwitchView.m in Sources */,
+				CE8570F91FD0383E004F1FF5 /* ViewController.m in Sources */,
+				CE82CB2C1FD049EA00ED6227 /* SCLTimerDisplay.m in Sources */,
+				CE8570F61FD0383E004F1FF5 /* AppDelegate.m in Sources */,
+				CE82CB321FD049EA00ED6227 /* UIImage+ImageEffects.m in Sources */,
+				CE8570F31FD0383E004F1FF5 /* main.m in Sources */,
+				CE82CB2F1FD049EA00ED6227 /* SCLTextView.m in Sources */,
+				CE82CB2E1FD049EA00ED6227 /* SCLAlertViewResponder.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE8571031FD0383F004F1FF5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE85710C1FD0383F004F1FF5 /* APNS_PusherTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE85710E1FD0383F004F1FF5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE8571171FD0383F004F1FF5 /* APNS_PusherUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CE8571091FD0383F004F1FF5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CE8570ED1FD0383E004F1FF5 /* APNS-Pusher */;
+			targetProxy = CE8571081FD0383F004F1FF5 /* PBXContainerItemProxy */;
+		};
+		CE8571141FD0383F004F1FF5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CE8570ED1FD0383E004F1FF5 /* APNS-Pusher */;
+			targetProxy = CE8571131FD0383F004F1FF5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CE8570FA1FD0383E004F1FF5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE8570FB1FD0383E004F1FF5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CE8570FF1FD0383F004F1FF5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE8571001FD0383F004F1FF5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CE8571191FD0383F004F1FF5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CE85711A1FD0383F004F1FF5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CE85711C1FD0383F004F1FF5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0A5CA32405B7254706083296 /* Pods-APNS-Pusher.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 9CMD5ZNVSE;
+				INFOPLIST_FILE = "APNS-Pusher/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sexyfather88.APNS-Pusher";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CE85711D1FD0383F004F1FF5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D0E98B68E914A09C063D6323 /* Pods-APNS-Pusher.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 9CMD5ZNVSE;
+				INFOPLIST_FILE = "APNS-Pusher/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sexyfather88.APNS-Pusher";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CE85711F1FD0383F004F1FF5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "APNS-PusherTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sexyfather88.APNS-PusherTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/APNS-Pusher.app/APNS-Pusher";
+			};
+			name = Debug;
+		};
+		CE8571201FD0383F004F1FF5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "APNS-PusherTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sexyfather88.APNS-PusherTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/APNS-Pusher.app/APNS-Pusher";
+			};
+			name = Release;
+		};
+		CE8571221FD0383F004F1FF5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "APNS-PusherUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sexyfather88.APNS-PusherUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "APNS-Pusher";
+			};
+			name = Debug;
+		};
+		CE8571231FD0383F004F1FF5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "APNS-PusherUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sexyfather88.APNS-PusherUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "APNS-Pusher";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CE8570E91FD0383E004F1FF5 /* Build configuration list for PBXProject "APNS-Pusher" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE8571191FD0383F004F1FF5 /* Debug */,
+				CE85711A1FD0383F004F1FF5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE85711B1FD0383F004F1FF5 /* Build configuration list for PBXNativeTarget "APNS-Pusher" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE85711C1FD0383F004F1FF5 /* Debug */,
+				CE85711D1FD0383F004F1FF5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE85711E1FD0383F004F1FF5 /* Build configuration list for PBXNativeTarget "APNS-PusherTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE85711F1FD0383F004F1FF5 /* Debug */,
+				CE8571201FD0383F004F1FF5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE8571211FD0383F004F1FF5 /* Build configuration list for PBXNativeTarget "APNS-PusherUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE8571221FD0383F004F1FF5 /* Debug */,
+				CE8571231FD0383F004F1FF5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CE8570E61FD0383E004F1FF5 /* Project object */;
+}
