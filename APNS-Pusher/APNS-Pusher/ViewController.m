@@ -58,8 +58,8 @@
                 @"media":meidaJSON
             };
             
-            // NSString *URLString = @"https://wilsonlin.000webhostapp.com/apns.php";
-            NSString *URLString = @"https://dry-bayou-69123.herokuapp.com/apns/apns.php";
+
+            NSString *URLString = @"your RESTful api";
             
             
             AFHTTPSessionManager *manager=[[AFHTTPSessionManager alloc]init];
